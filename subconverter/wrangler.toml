@@ -1,0 +1,14 @@
+name = "subconverter"
+main = "src/index.ts"
+compatibility_date = "2024-02-08"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "subconverter-db"
+database_id = "your-database-id-here"
+
+[vars]
+AUTH_TOKEN = "your-admin-token"
+
+[asset]
+binding = "ASSETS"
